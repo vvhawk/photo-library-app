@@ -17,11 +17,17 @@ Data persistence is achieved through [serialization](https://docs.oracle.com/jav
 The administration system allows you to manage users.  
 To configure, simply enter **"admin"** at login.
 
+![Alt text](./guides/admin.gif?raw=true "Admin")
+
 ## Logout
 You can logout anytime and ensure that all data is saved. You will be brought back to the home/login screen. 
 
+![Alt text](./guides/logout.gif?raw=true "Logout")
+
 ## Quit
 You can safely quit the app anytime and ensure that all data is saved.
+
+![Alt text](./guides/quit.gif?raw=true "Quit")
 
 ## Albums
 Logging into a user displays all the user's albums. Here you can select a specific album to display the number of photos in the album as well as the range of modification dates. 
