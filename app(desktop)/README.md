@@ -30,18 +30,24 @@ You can safely quit the app anytime and ensure that all data is saved.
 ![Alt text](./guides/quit.gif?raw=true "Quit")
 
 ## Albums
-Logging into a user displays all the user's albums. Here you can select a specific album to display the number of photos in the album as well as the range of modification dates. 
+Logging into a user displays all the user's albums. Here you can select a specific album to display the number of photos in the album as well as the range of modification dates.
 
 You can easily add, delete or rename albums. 
 
+![Alt text](./guides/album.gif?raw=true "Album")
+
 ### Open
 Opening an album allows you to play around with the photos in that album. 
+
+![Alt text](./guides/open.gif?raw=true "Open")
 #### Add
 #### Delete
 #### Move
 #### Copy
 ### Search
 For a fully implemented search, check out the mobile app!
+
+![Alt text](./guides/search.gif?raw=true "Search")
 
 ## Display
 After opening an album and selecting a photo, you can finally display that photo and navigate through the entire album in a slideshow.
