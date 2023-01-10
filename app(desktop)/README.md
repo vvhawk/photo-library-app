@@ -5,7 +5,11 @@ Welcome to my desktop app guide. All the features are listed below. Feel free to
 ## Overview
 Photo Library gives you the power to create and manage albums directly from images stored on your computer. You can move and copy photos between your albums. You can edit your photos with captions and tags. You can even view your collection with a built-in slideshow. Above all, it supports multiple users! 
 
-This application comes preconfigured with a stock user that contains a stock album and five breathtaking stock photos. 
+This application comes preconfigured with a stock user that contains a stock album and five breathtaking stock photos.
+
+<!---
+cut frames of gifs
+-->
 
 ## Implementation
 This application was written in java using [JavaFX](https://openjfx.io) and [Scene Builder](https://gluonhq.com/products/scene-builder/). 
