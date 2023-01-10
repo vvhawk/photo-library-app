@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="users_backdrop" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="914.0" style="-fx-background-color: #a4c2f4#a4c2f4;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bro_comm.userController">
+   <children>
+      <Button layoutX="36.0" layoutY="432.0" mnemonicParsing="false" onAction="#quit" prefHeight="26.0" prefWidth="77.0" style="-fx-border-color: black; -fx-background-color: #e06666#e06666;" text="Quit">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="admin2_logout" layoutX="37.0" layoutY="394.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="26.0" prefWidth="77.0" style="-fx-border-color: black; -fx-background-color: #ffe599;" text="Logout">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="445.0" layoutY="59.0" text="Albums" underline="true">
+         <font>
+            <Font name="Lao MN" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox id="user_display" fx:id="album_list" layoutX="297.0" layoutY="100.0" onAction="#setAlbumList" prefHeight="60.0" prefWidth="379.0" style="-fx-border-color: black; -fx-font-family: Lao MN;" />
+      <Button fx:id="album_delete" layoutX="294.0" layoutY="202.0" mnemonicParsing="false" onAction="#deleteAlbum" prefHeight="96.0" prefWidth="145.0" style="-fx-border-color: black; -fx-background-color: #ea9999#ea9999;" text="(-)">
+         <font>
+            <Font name="Lao MN" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="album_add" layoutX="292.0" layoutY="318.0" mnemonicParsing="false" onAction="#addAlbum" prefHeight="96.0" prefWidth="145.0" style="-fx-border-color: black; -fx-background-color: #b6d7a8#b6d7a8;" text="(+)">
+         <font>
+            <Font name="Lao MN" size="26.0" />
+         </font>
+      </Button>
+      <TextField fx:id="album_add_field" alignment="CENTER" layoutX="259.0" layoutY="422.0" prefHeight="32.0" prefWidth="215.0" promptText="enter new album here" style="-fx-background-color: #b6d7a8#b6d7a8 #b6d7a8#b6d7a8; -fx-border-color: black; ">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="album_open" layoutX="533.0" layoutY="202.0" mnemonicParsing="false" onAction="#open" prefHeight="96.0" prefWidth="145.0" style="-fx-border-color: black; -fx-background-color: #a2c4c9#a2c4c9;" text="Open">
+         <font>
+            <Font name="Lao MN" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="album_rename" layoutX="533.0" layoutY="318.0" mnemonicParsing="false" onAction="#renameAlbum" prefHeight="96.0" prefWidth="145.0" style="-fx-border-color: black; -fx-background-color: #f9cb9c;" text="Rename">
+         <font>
+            <Font name="Lao MN" size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="album_search" layoutX="744.0" layoutY="205.0" mnemonicParsing="false" onAction="#search" prefHeight="213.0" prefWidth="145.0" style="-fx-border-color: black; -fx-background-color: #b4a7d6;" text="Search">
+         <font>
+            <Font name="Lao MN" size="26.0" />
+         </font>
+      </Button>
+      <TextField fx:id="album_rename_field" alignment="CENTER" layoutX="497.0" layoutY="422.0" prefHeight="32.0" prefWidth="215.0" promptText="enter new name here" style="-fx-background-color: #f9cb9c; -fx-border-color: black;">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </TextField>
+      <VBox layoutX="15.0" layoutY="189.0" prefHeight="113.0" prefWidth="240.0">
+         <children>
+            <Label fx:id="album_name" alignment="CENTER" prefHeight="48.0" prefWidth="243.0" style="-fx-background-color: #f4cccc#f4cccc #f4cccc; -fx-border-color: black;">
+               <font>
+                  <Font name="Caveat Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="album_count" alignment="CENTER" prefHeight="48.0" prefWidth="243.0" style="-fx-background-color: #f4cccc#f4cccc #f4cccc; -fx-border-color: black;">
+               <font>
+                  <Font name="Caveat Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="album_range" alignment="CENTER" prefHeight="48.0" prefWidth="243.0" style="-fx-background-color: #f4cccc#f4cccc #f4cccc; -fx-border-color: black;">
+               <font>
+                  <Font name="Caveat Regular" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

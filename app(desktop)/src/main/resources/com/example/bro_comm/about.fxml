@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="914.0" style="-fx-background-color: #f4cccc;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bro_comm.aboutController">
+   <children>
+      <Button layoutX="309.0" layoutY="399.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="65.0" prefWidth="308.0" style="-fx-border-color: black; -fx-background-color: pink;" text="Home">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="396.0" fitWidth="773.0" layoutX="69.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@about.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

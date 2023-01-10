@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="display_backdrop" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="982.0" style="-fx-background-color: #a2c4c9;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bro_comm.displayController">
+   <children>
+      <Button fx:id="display_quit" layoutX="14.0" layoutY="625.0" mnemonicParsing="false" onAction="#quit" prefHeight="26.0" prefWidth="77.0" style="-fx-border-color: black; -fx-background-color: #e06666#e06666;" text="Quit">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="display_logout" layoutX="14.0" layoutY="582.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="26.0" prefWidth="77.0" style="-fx-border-color: black; -fx-background-color: #ffe599;" text="Logout">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </Button>
+      <BorderPane fx:id="display" layoutX="208.0" layoutY="75.0" prefHeight="267.0" prefWidth="608.0" style="-fx-border-color: black; -fx-background-color: #d5a6bd#d5a6bd;">
+         <top>
+            <Label fx:id="captionDisplay" alignment="CENTER" contentDisplay="CENTER" text="Label" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Caveat Regular" size="13.0" />
+               </font></Label>
+         </top>
+         <bottom>
+            <Label fx:id="datesDisplay" alignment="CENTER" contentDisplay="CENTER" text="Label" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Caveat Regular" size="13.0" />
+               </font></Label>
+         </bottom>
+         <center>
+            <ImageView fx:id="display_view" fitHeight="278.0" fitWidth="536.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <Button fx:id="display_back" layoutX="14.0" layoutY="462.0" mnemonicParsing="false" onAction="#back" prefHeight="108.0" prefWidth="77.0" style="-fx-border-color: black; -fx-background-color: #a4c2f4#a4c2f4 #a4c2f4#a4c2f4;" text="Back">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="tagValueField" layoutX="194.0" layoutY="629.0" prefHeight="28.0" prefWidth="148.0" promptText="add tag" style="-fx-border-color: black; -fx-background-color: #b6d7a8#b6d7a8 #b6d7a8#b6d7a8;">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font></TextField>
+      <ListView fx:id="tagList" layoutX="126.0" layoutY="481.0" prefHeight="143.0" prefWidth="279.0" />
+      <ComboBox fx:id="selectTagType" layoutX="169.0" layoutY="448.0" onAction="#listTags" prefHeight="28.0" prefWidth="185.0" style="-fx-background-color: #f9cb9c #f9cb9c; -fx-border-color: black;" />
+      <Label fx:id="display_title" alignment="CENTER" layoutX="180.0" layoutY="10.0" prefHeight="47.0" prefWidth="661.0" style="-fx-border-color: black;" text="Label">
+         <font>
+            <Font name="Lao MN" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="display_forward" layoutX="828.0" layoutY="177.0" mnemonicParsing="false" onAction="#displayForward" prefHeight="108.0" prefWidth="77.0" style="-fx-border-color: black; -fx-background-color: #a4c2f4#a4c2f4 #a4c2f4#a4c2f4;" text="-&gt;">
+         <font>
+            <Font name="Lao MN" size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="display_reverse" layoutX="118.0" layoutY="178.0" mnemonicParsing="false" onAction="#displayReverse" prefHeight="108.0" prefWidth="77.0" style="-fx-border-color: black; -fx-background-color: #a4c2f4#a4c2f4 #a4c2f4#a4c2f4;" text="&lt;-">
+         <font>
+            <Font name="Lao MN" size="32.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="193.0" layoutY="411.0" prefHeight="29.0" prefWidth="146.0" style="-fx-background-color: #f9cb9c;" text="select tag type">
+         <font>
+            <Font name="Lao MN" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="addTagButton" layoutX="127.0" layoutY="629.0" mnemonicParsing="false" onAction="#addTag" prefHeight="34.0" prefWidth="56.0" style="-fx-background-color: #b6d7a8#b6d7a8 #b6d7a8#b6d7a8; -fx-border-color: black;" text="(+)" />
+      <Button fx:id="removeTagButton" layoutX="351.0" layoutY="628.0" mnemonicParsing="false" onAction="#deleteTag" prefHeight="34.0" prefWidth="56.0" style="-fx-background-color: #ea9999#ea9999 #ea9999#ea9999; -fx-border-color: black;" text="(-)" />
+      <TextField fx:id="createTagType" layoutX="601.0" layoutY="512.0" prefHeight="32.0" prefWidth="213.0" promptText="create tag type" style="-fx-border-color: black; -fx-background-color: #f9cb9c #f9cb9c;">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="addCaptionField" layoutX="510.0" layoutY="570.0" prefHeight="32.0" prefWidth="394.0" promptText="add/edit caption" style="-fx-border-color: black; -fx-background-color: #dd7e6b#dd7e6b;">
+         <font>
+            <Font name="Lao MN" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="createTagButton" layoutX="535.0" layoutY="511.0" mnemonicParsing="false" onAction="#addTagType" prefHeight="34.0" prefWidth="56.0" style="-fx-background-color: #b6d7a8#b6d7a8 #b6d7a8#b6d7a8; -fx-border-color: black;" text="(+)" />
+      <Button fx:id="captionButton" layoutX="448.0" layoutY="569.0" mnemonicParsing="false" onAction="#addCaption" prefHeight="34.0" prefWidth="56.0" style="-fx-background-color: #b6d7a8#b6d7a8 #b6d7a8#b6d7a8; -fx-border-color: black;" text="(+)" />
+      <Button fx:id="deleteTagType" layoutX="824.0" layoutY="510.0" mnemonicParsing="false" onAction="#deleteTagType" prefHeight="34.0" prefWidth="56.0" style="-fx-background-color: #ea9999#ea9999 #ea9999#ea9999; -fx-border-color: black;" text="(-)" />
+      <Button fx:id="deleteCaption" layoutX="909.0" layoutY="569.0" mnemonicParsing="false" onAction="#deleteCaption" prefHeight="34.0" prefWidth="56.0" style="-fx-background-color: #ea9999#ea9999 #ea9999#ea9999; -fx-border-color: black;" text="(-)" />
+   </children>
+</AnchorPane>

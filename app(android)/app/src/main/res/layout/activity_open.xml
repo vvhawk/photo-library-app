@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/openBackdrop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/open"
+    tools:context=".OpenActivity">
+
+    <Spinner
+        android:id="@+id/openAlbumList"
+        android:layout_width="182dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/rename"
+        app:layout_constraintBottom_toTopOf="@+id/openDisplay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/openMove"
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/rename"
+        android:fontFamily="@font/caveat"
+        android:onClick="movePhoto"
+        android:text="Move"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/openAlbumList"
+        app:layout_constraintEnd_toStartOf="@+id/openDelete"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toEndOf="@+id/openAdd" />
+
+    <Button
+        android:id="@+id/openDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/coral"
+        android:fontFamily="@font/caveat"
+        android:onClick="deletePhoto"
+        android:text="-"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/openAlbumList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openGridS"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/openAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="@color/grass"
+        android:fontFamily="@font/caveat"
+        android:onClick="addPhoto"
+        android:text="+"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/openAlbumList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openGridS"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <GridView
+        android:id="@+id/openGridS"
+        android:layout_width="374dp"
+        android:layout_height="215dp"
+        android:layout_marginBottom="8dp"
+        android:numColumns="3"
+        app:layout_constraintBottom_toTopOf="@+id/openMove"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/openTitle"
+        android:layout_width="348dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/caveat"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/openGridS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/openDisplay"
+        android:layout_width="154dp"
+        android:layout_height="67dp"
+        android:backgroundTint="@color/display"
+        android:fontFamily="@font/caveat"
+        android:onClick="display"
+        android:text="Display"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
