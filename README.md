@@ -7,3 +7,5 @@ With everything I create, I strive to make it pretty to look at. Design is essen
 
 **NOTE:**  
 *The application has a desktop and mobile version with slightly different functionality. The README files serve as guides to these functionalities. If you have any further questions, feel free to [reach out](https://github.com/vvhawk)!*
+
+![Alt text](./extra/me.JPG?raw=true "Title")
