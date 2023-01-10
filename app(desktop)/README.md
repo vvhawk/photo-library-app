@@ -5,7 +5,7 @@ Welcome to my desktop app guide. All the features are listed below. Feel free to
 ## Overview
 Photo Library gives you the power to create and manage albums directly from images stored on your computer. You can move and copy photos between your albums. You can edit your photos with captions and tags. You can even view your collection with a built-in slideshow. Above all, it supports multiple users! 
 
-This application comes preconfigured with a stock user that contains a stock album and five breathtaking stock photos.
+This application comes preconfigured with a stock user containing a stock album with five breathtaking stock photos.
 
 <!---
 cut frames of gifs
@@ -18,8 +18,8 @@ This application was written in java using [JavaFX](https://openjfx.io) and [Sce
 Data persistence is achieved through [serialization](https://docs.oracle.com/javase/tutorial/jndi/objects/serial.html). 
 
 ## Administration
-The administration system allows you to manage users.  
-To configure, simply enter **"admin"** at login.
+The administration system allows you to add and delete users.  
+To configure, enter **"admin"** at login.
 
 <!---
 ![Alt text](./guides/admin.gif?raw=true "Admin")
@@ -27,7 +27,7 @@ To configure, simply enter **"admin"** at login.
 <img src="./guides/admin.gif" width="800" height="500"/>
 
 ## Logout
-You can logout anytime and ensure that all data is saved. You will be brought back to the home/login screen.
+You can logout anytime and ensure all data is saved. You will be brought back to the home/login screen.
 
 <!---
 ![Alt text](./guides/logout.gif?raw=true "Logout")
@@ -35,7 +35,7 @@ You can logout anytime and ensure that all data is saved. You will be brought ba
 <img src="./guides/logout.gif" width="800" height="500"/>
 
 ## Quit
-You can safely quit the app anytime and ensure that all data is saved.
+You can safely quit the app anytime and ensure all data is saved.
 
 <!---
 ![Alt text](./guides/quit.gif?raw=true "Quit")
@@ -54,7 +54,7 @@ You can easily add, delete or rename albums.
 <img src="./guides/album.gif" width="800" height="500"/>
 
 ### Open
-Opening an album allows you to play around with the photos in that album. 
+Opening an album allows you to select individual photos.
 
 <!---
 ![Alt text](./guides/open.gif?raw=true "Open")
@@ -62,9 +62,13 @@ Opening an album allows you to play around with the photos in that album.
 <img src="./guides/open.gif" width="800" height="500"/>
 
 #### Add
+Add a photo to the open album from your computer
 #### Delete
+Delete a photo in the open album
 #### Move
+Move a photo from the open album to another album
 #### Copy
+Copy a photo from the open album to another album
 ### Search
 For a fully implemented search, check out the mobile app!
 
