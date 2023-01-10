@@ -1,7 +1,7 @@
 # Photo Library (Desktop)
 Welcome to my desktop app guide. All the features are listed below. Feel free to roam around!
 
-*[shortcut to the source code](./app/src/main/java/com/example/android)*
+*[shortcut to the source code](./src/main/java/com/example/bro_comm/)*
 ## Overview
 Photo Library gives you the power to create and manage albums directly from images stored on your computer. You can move and copy photos between your albums. You can edit your photos with captions and tags. You can even view your collection with a built-in slideshow. Above all, it supports multiple users! 
 
