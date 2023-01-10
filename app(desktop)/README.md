@@ -23,8 +23,9 @@ To configure, enter **"admin"** at login.
 
 <!---
 ![Alt text](./guides/admin.gif?raw=true "Admin")
--->
 <img src="./guides/admin.gif" width="800" height="500"/>
+-->
+![Alt text](./guides/admin.gif?raw=true "Admin")
 
 ## Logout
 You can logout anytime and ensure all data is saved. You will be brought back to the home/login screen.
