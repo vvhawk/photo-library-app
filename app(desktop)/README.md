@@ -103,10 +103,16 @@ After opening an album and selecting a photo, you can display that photo and nav
 ### Caption
 Add fun captions to your photos!
 
+![Alt text](./guides/caption.gif?raw=true "Caption")
+
 ### Tag
 Tag your photos by people and location. Not satisfied? Add your own tag types!
 
+![Alt text](./guides/tag.gif?raw=true "Tag")
+
 # Credits
+
+![Alt text](./guides/about.png?raw=true "About")
 
 
 
