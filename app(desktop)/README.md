@@ -67,12 +67,20 @@ Opening an album allows you to select individual photos.
 
 #### Add
 Add a photo to the open album from your computer.
+![Alt text](./guides/add.gif?raw=true "Add")
+
 #### Delete
 Delete a photo in the open album.
+![Alt text](./guides/delete.gif?raw=true "Delete")
+
 #### Copy
 Copy a photo from the open album to another album.
+![Alt text](./guides/copy.gif?raw=true "Copy")
+
 #### Move
 Move a photo from the open album to another album.
+![Alt text](./guides/move.gif?raw=true "Move")
+
 ### Search
 For a fully implemented search, check out the mobile app!
 
@@ -85,6 +93,8 @@ For a fully implemented search, check out the mobile app!
 
 ## Display
 After opening an album and selecting a photo, you can display that photo and navigate through the entire album in a slideshow.
+![Alt text](./guides/display.gif?raw=true "Display")
+
 ### Caption
 Add fun captions to your photos!
 
