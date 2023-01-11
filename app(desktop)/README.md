@@ -18,8 +18,7 @@ This application was written in java using [JavaFX](https://openjfx.io) and [Sce
 Data persistence is achieved through [serialization](https://docs.oracle.com/javase/tutorial/jndi/objects/serial.html). 
 
 ## Administration
-The administration system allows you to add and delete users.  
-To configure, enter **"admin"** at login.
+The administration system allows you to add and delete users. To configure, enter **"admin"** at login.
 
 <!---
 ![Alt text](./guides/admin.gif?raw=true "Admin")
@@ -32,16 +31,18 @@ You can logout anytime and ensure all data is saved. You will be brought back to
 
 <!---
 ![Alt text](./guides/logout.gif?raw=true "Logout")
--->
 <img src="./guides/logout.gif" width="800" height="500"/>
+-->
+![Alt text](./guides/logout.gif?raw=true "Logout")
 
 ## Quit
 You can safely quit the app anytime and ensure all data is saved.
 
 <!---
 ![Alt text](./guides/quit.gif?raw=true "Quit")
--->
 <img src="./guides/quit.gif" width="800" height="500"/>
+-->
+![Alt text](./guides/quit.gif?raw=true "Quit")
 
 
 ## Albums
@@ -51,40 +52,46 @@ You can easily add, delete or rename albums.
 
 <!---
 ![Alt text](./guides/album.gif?raw=true "Album")
--->
 <img src="./guides/album.gif" width="800" height="500"/>
+-->
+![Alt text](./guides/album.gif?raw=true "Album")
 
 ### Open
 Opening an album allows you to select individual photos.
 
 <!---
 ![Alt text](./guides/open.gif?raw=true "Open")
--->
 <img src="./guides/open.gif" width="800" height="500"/>
+-->
+![Alt text](./guides/open.gif?raw=true "Open")
 
 #### Add
-Add a photo to the open album from your computer
+Add a photo to the open album from your computer.
 #### Delete
-Delete a photo in the open album
-#### Move
-Move a photo from the open album to another album
+Delete a photo in the open album.
 #### Copy
-Copy a photo from the open album to another album
+Copy a photo from the open album to another album.
+#### Move
+Move a photo from the open album to another album.
 ### Search
 For a fully implemented search, check out the mobile app!
 
 <!---
 ![Alt text](./guides/search.gif?raw=true "Search")
--->
 <img src="./guides/search.gif" width="800" height="500"/>
+-->
+![Alt text](./guides/search.gif?raw=true "Search")
 
 
 ## Display
-After opening an album and selecting a photo, you can finally display that photo and navigate through the entire album in a slideshow.
+After opening an album and selecting a photo, you can display that photo and navigate through the entire album in a slideshow.
 ### Caption
+Add fun captions to your photos!
 
 ### Tag
+Tag your photos by people and location. Not satisfied? Add your own tags!
 
 # Credits
+
 
 
