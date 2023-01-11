@@ -72,13 +72,15 @@ After opening an album and selecting a photo, you can display that photo and nav
 
 
 ### Tag
-Tag your photos by people and location. 
+Tag your photos by people
 
 <!---
 ![Alt text](./guides/tag.gif?raw=true "Tag")
 -->
-<img src="./guides/tagA.gif" width="400" height="800"/>
+<img src="./guides/peopleA.gif" width="400" height="800"/>
 
+and location.  
+<img src="./guides/locationA.gif" width="400" height="800"/>
 
 ## Search
 Search allows you to sort photos by people or location tags. 
