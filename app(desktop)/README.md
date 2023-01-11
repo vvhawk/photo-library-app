@@ -27,7 +27,7 @@ The administration system allows you to add and delete users. To configure, ente
 ![Alt text](./guides/admin.gif?raw=true "Admin")
 
 ## Logout
-You can logout anytime and ensure all data is saved. You will be brought back to the home/login screen.
+You can logout anytime and ensure all data is saved. Doing so will bring you back to the home/login screen.
 
 <!---
 ![Alt text](./guides/logout.gif?raw=true "Logout")
