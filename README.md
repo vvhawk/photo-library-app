@@ -1,6 +1,6 @@
 # Photo Library 📸
 **NOTE:**  
-*The application has a [desktop](./app(desktop)/README.md) and [mobile](./app(android)/README.md)  version with slightly different functionality. The README files serve as guides to these functionalities. If you have any further questions, feel free to [reach out](https://github.com/vvhawk)!*
+*The application has a [desktop](./app(desktop)) and [mobile](./app(android))  version with slightly different functionality. The README files serve as guides to these functionalities. If you have any further questions, feel free to [reach out](https://github.com/vvhawk)!*
 
 Welcome to my first app! Here, you’ll find a traditional photo library reimagined as a colorful adventure!
 
