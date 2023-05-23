@@ -4,7 +4,7 @@ Welcome to my mobile app guide. All the features are listed below. Feel free to 
 *[shortcut to the source code](./app/src/main/java/com/example/android/)*
 
 **NOTE:**  
-*As of now, this application is only available for android devices.*
+*As of now, the mobile app is only available for android devices.*
 ![Alt text](./guides/android.png?raw=true "Logo")
 
 ## Overview
