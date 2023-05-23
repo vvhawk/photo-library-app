@@ -31,7 +31,7 @@ Click open, and let the adventure begin! You can easily add, delete or rename al
 ![Alt text](./guides/album.gif?raw=true "Album")
 <img src="./guides/album.gif" width="800" height="500"/>
 -->
-<img src="./guides/albumA.gif" width="400" height="800"/>
+<img src="./guides/albumA.gif" width="250" height="500"/>
 
 ### Open
 Opening an album allows you to select individual photos.
@@ -42,7 +42,7 @@ Add a photo to the open album from your computer.
 <!---
 ![Alt text](./guides/add.gif?raw=true "Add")
 -->
-<img src="./guides/addA.gif" width="400" height="800"/>
+<img src="./guides/addA.gif" width="250" height="500"/>
 
 #### Move
 Move a photo from the open album to another album.
@@ -50,7 +50,7 @@ Move a photo from the open album to another album.
 <!---
 ![Alt text](./guides/move.gif?raw=true "Move")
 -->
-<img src="./guides/moveA.gif" width="400" height="800"/>
+<img src="./guides/moveA.gif" width="250" height="500"/>
 
 
 #### Delete
@@ -59,7 +59,7 @@ Delete a photo in the open album.
 <!---
 ![Alt text](./guides/delete.gif?raw=true "Delete")
 -->
-<img src="./guides/deleteA.gif" width="400" height="800"/>
+<img src="./guides/deleteA.gif" width="250" height="500"/>
 
 
 ## Display
@@ -68,7 +68,7 @@ After opening an album and selecting a photo, you can display that photo and nav
 <!---
 ![Alt text](./guides/display.gif?raw=true "Display")
 -->
-<img src="./guides/displayA.gif" width="400" height="800"/>
+<img src="./guides/displayA.gif" width="250" height="500"/>
 
 
 ### Tag
@@ -77,10 +77,10 @@ Tag your photos by people
 <!---
 ![Alt text](./guides/tag.gif?raw=true "Tag")
 -->
-<img src="./guides/peopleA.gif" width="400" height="800"/>
+<img src="./guides/peopleA.gif" width="250" height="500"/>
 
 and location.  
-<img src="./guides/locationA.gif" width="400" height="800"/>
+<img src="./guides/locationA.gif" width="250" height="500"/>
 
 ## Search
 Search allows you to sort photos by people or location tags. 
@@ -89,11 +89,11 @@ Search allows you to sort photos by people or location tags.
 <img src="./guides/search.gif" width="800" height="500"/>
 -->
 
-<img src="./guides/searchA.gif" width="400" height="800"/>
+<img src="./guides/searchA.gif" width="250" height="500"/>
 
 Turn on "*context search*" to return similar matches!
 
-<img src="./guides/contextA.gif" width="400" height="800"/>
+<img src="./guides/contextA.gif" width="250" height="500"/>
 
 # Credits
 
