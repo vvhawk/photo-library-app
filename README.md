@@ -1,4 +1,4 @@
-# Photo Library 📸
+# SnapVault 📸🔒
 **NOTE:**  
 *The application has a [desktop](./app(desktop)) and [mobile](./app(android))  version with slightly different functionality. The README files serve as guides to these functionalities. If you have any further questions, feel free to [reach out](https://github.com/vvhawk)!*
 
