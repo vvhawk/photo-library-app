@@ -1,4 +1,4 @@
-# Photo Library (Mobile)
+# SnapVault (Mobile)
 Welcome to my mobile app guide. All the features are listed below. Feel free to roam around!
 
 *[shortcut to the source code](./app/src/main/java/com/example/android/)*
@@ -8,7 +8,7 @@ Welcome to my mobile app guide. All the features are listed below. Feel free to 
 ![Alt text](./guides/android.png?raw=true "Logo")
 
 ## Overview
-Photo Library gives you the power to create and manage albums directly from images stored on your device. You can move and copy photos between your albums. You can tag the people and locations in your photos. You can even view your collection with a built-in slideshow. This mobile version even lets you search for photos by their tags. 
+SnapVault gives you the power to create and manage albums directly from images stored on your device. You can move and copy photos between your albums. You can tag the people and locations in your photos. You can even view your collection with a built-in slideshow. This mobile version even lets you search for photos by their tags. 
 
 Unlike the desktop application, the mobile version only supports a single user. This was a deliberate design decision. 
 
